@@ -20,37 +20,39 @@
             <legend>Daftar Akun</legend>
 
             <p>
-                Nama Lengkap:
-                <input type="text" name="nama_lengkap">
+                <label for="nama_lengkap">Nama Lengkap:</label>
+                <input type="text" id="nama_lengkap" name="nama_lengkap">
             </p>
 
             <hr>
 
             <p>
                 Jenis Kelamin:
-                <input type="radio" name="jenis_kelamin" value="laki-laki"> Laki-Laki
-                <input type="radio" name="jenis_kelamin" value="perempuan"> Perempuan
+                <input type="radio" id="jk_lakilaki" name="jenis_kelamin" value="laki-laki">
+                <label for="jk_lakilaki">Laki-Laki</label>
+                <input type="radio" id="jk_perempuan" name="jenis_kelamin" value="perempuan">
+                <label for="jk_perempuan">Perempuan</label>
             </p>
 
             <hr>
 
             <p>
-                Tempat Lahir:
-                <input type="text" name="tempat_lahir">
+                <label for="tempat_lahir">Tempat Lahir:</label>
+                <input type="text" id="tempat_lahir" name="tempat_lahir">
             </p>
 
             <hr>
 
             <p>
-                Tanggal Lahir:
-                <input type="date" name="tanggal_lahir">
+                <label for="tanggal_lahir">Tanggal Lahir:</label>
+                <input type="date" id="tanggal_lahir" name="tanggal_lahir">
             </p>
 
             <hr>
 
             <p>
-                Agama:
-                <select name="agama">
+                <label for="agama">Agama:</label>
+                <select id="agama" name="agama">
                     <option value="">--- Pilih Agama ---</option>
                     <option value="islam">Islam</option>
                     <option value="katolik">Katolik</option>
@@ -65,23 +67,26 @@
 
             <p>
                 Hobi:
-                <input type="checkbox" name="hobi" value="olahraga"> Olahraga
-                <input type="checkbox" name="hobi" value="membaca"> Membaca
-                <input type="checkbox" name="hobi" value="ngoding"> Ngoding
+                <input type="checkbox" id="hobi_olahraga" name="hobi" value="olahraga">
+                <label for="hobi_olahraga">Olahraga</label>
+                <input type="checkbox" id="hobi_membaca" name="hobi" value="membaca">
+                <label for="hobi_membaca">Membaca</label>
+                <input type="checkbox" id="hobi_ngoding" name="hobi" value="ngoding">
+                <label for="hobi_ngoding">Ngoding</label>
             </p>
 
             <hr>
 
             <p>
-                Password:
-                <input type="password" name="password">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
             </p>
 
             <hr>
 
             <p>
-                <input type="checkbox" name="persetujuan" value="setuju">
-                Dengan mendaftar saya setuju dengan Ketentuan dan Kebijakan Privasi Aplikasi.
+                <input type="checkbox" id="persetujuan" name="persetujuan" value="setuju">
+                <label for="persetujuan">Dengan mendaftar saya setuju dengan Ketentuan dan Kebijakan Privasi Aplikasi.</label>
             </p>
 
             <p>
