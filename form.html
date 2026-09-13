@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Pendaftaran Akun</title>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">1. IMDb Top 3 Movies</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="blog.html">2. Dev Blogs</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="form.html">3. Form Pendaftaran</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="cv.html">4. Curriculum Vitae</a>
+    </nav>
+
+    <hr>
+
+    <form>
+        <fieldset>
+            <legend>Daftar Akun</legend>
+
+            <p>
+                Nama Lengkap:
+                <input type="text" name="nama_lengkap">
+            </p>
+
+            <hr>
+
+            <p>
+                Jenis Kelamin:
+                <input type="radio" name="jenis_kelamin" value="laki-laki"> Laki-Laki
+                <input type="radio" name="jenis_kelamin" value="perempuan"> Perempuan
+            </p>
+
+            <hr>
+
+            <p>
+                Tempat Lahir:
+                <input type="text" name="tempat_lahir">
+            </p>
+
+            <hr>
+
+            <p>
+                Tanggal Lahir:
+                <input type="date" name="tanggal_lahir">
+            </p>
+
+            <hr>
+
+            <p>
+                Agama:
+                <select name="agama">
+                    <option value="">--- Pilih Agama ---</option>
+                    <option value="islam">Islam</option>
+                    <option value="katolik">Katolik</option>
+                    <option value="protestan">Protestan</option>
+                    <option value="hindu">Hindu</option>
+                    <option value="buddha">Buddha</option>
+                    <option value="konghucu">Konghucu</option>
+                </select>
+            </p>
+
+            <hr>
+
+            <p>
+                Hobi:
+                <input type="checkbox" name="hobi" value="olahraga"> Olahraga
+                <input type="checkbox" name="hobi" value="membaca"> Membaca
+                <input type="checkbox" name="hobi" value="ngoding"> Ngoding
+            </p>
+
+            <hr>
+
+            <p>
+                Password:
+                <input type="password" name="password">
+            </p>
+
+            <hr>
+
+            <p>
+                <input type="checkbox" name="persetujuan" value="setuju">
+                Dengan mendaftar saya setuju dengan Ketentuan dan Kebijakan Privasi Aplikasi.
+            </p>
+
+            <p>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </p>
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
